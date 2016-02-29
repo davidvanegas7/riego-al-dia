@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Riego al Día</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Caracteristicas</string>
+    <string-array name="listacultivos">
+            <item>Aguacate</item>
+            <item>Aji</item>
+            <item>Ajo</item>
+            <item>Alcachofa</item>
+            <item>Alfalfa</item>
+            <item>Algodón</item>
+            <item>Apio</item>
+            <item>Arroz</item>
+            <item>Arveja</item>
+            <item>Avena</item>
+            <item>Banana</item>
+            <item>Batata</item>
+            <item>Berenjena</item>
+            <item>Brócoli</item>
+            <item>Cacao</item>
+            <item>Café</item>
+            <item>Calabacín</item>
+            <item>Calabaza</item>
+            <item>Cebolla</item>
+            <item>Chirivía</item>
+            <item>Cítricos</item>
+            <item>Col de Brusellas</item>
+            <item>Coliflor</item>
+            <item>Duraznos</item>
+            <item>Empastadas</item>
+            <item>Espárragos</item>
+            <item>Espinacas</item>
+            <item>Fresas</item>
+            <item>Frijol</item>
+            <item>Garbanzo</item>
+            <item>Habas</item>
+            <item>Lechugas</item>
+            <item>Lentejas</item>
+            <item>Maíz</item>
+            <item>Maní</item>
+            <item>Manzanos</item>
+            <item>Melón</item>
+            <item>Menta</item>
+            <item>Moras</item>
+            <item>Nabos</item>
+            <item>Palmas</item>
+            <item>Papas</item>
+            <item>Pepino</item>
+            <item>Perales y Ciruelos</item>
+            <item>Pimiento</item>
+            <item>Piña</item>
+            <item>Rábano</item>
+            <item>Remolacha</item>
+            <item>Repollo</item>
+            <item>Sandía</item>
+            <item>Sorgo</item>
+            <item>Soya</item>
+            <item>Tomate</item>
+            <item>Trigo Invierno</item>
+            <item>Trigo Primavera</item>
+            <item>Uvas</item>
+            <item>Vid</item>
+            <item>Yuca</item>
+            <item>Zanahoria</item>
+            <item>Zapallo</item>
+        </string-array>
+
+        <string-array name="listaprofundidad">
+            <item>150</item>
+            <item>60</item>
+            <item>60</item>
+            <item>100</item>
+            <item>180</item>
+            <item>50</item>
+            <item>15</item>
+            <item>40</item>
+            <item>60</item>
+            <item>30</item>
+            <item>300</item>
+            <item>15</item>
+            <item>25</item>
+            <item>60</item>
+            <item>30</item>
+            <item>150</item>
+            <item>10</item>
+            <item>10</item>
+            <item>60</item>
+            <item>20</item>
+            <item>300</item>
+            <item>80</item>
+            <item>60</item>
+            <item>180</item>
+            <item>60</item>
+            <item>180</item>
+            <item>15</item>
+            <item>60</item>
+            <item>90</item>
+            <item>50</item>
+            <item>80</item>
+            <item>60</item>
+            <item>15</item>
+            <item>120</item>
+            <item>30</item>
+            <item>180</item>
+            <item>90</item>
+            <item>60</item>
+            <item>20</item>
+            <item>10</item>
+            <item>50</item>
+            <item>60</item>
+            <item>10</item>
+            <item>180</item>
+            <item>60</item>
+            <item>10</item>
+            <item>10</item>
+            <item>25</item>
+            <item>60</item>
+            <item>120</item>
+            <item>150</item>
+            <item>50</item>
+            <item>40</item>
+            <item>100</item>
+            <item>90</item>
+            <item>100</item>
+            <item>100</item>
+            <item>40</item>
+            <item>90</item>
+            <item>120</item>
+        </string-array>
+
+        <string-array name="listariegos">
+            <item>Aspersión</item>
+            <item>Surcos</item>
+            <item>Microaspersión</item>
+            <item>Melgas</item>
+            <item>Goteo</item>
+            <item>Pivotes</item>
+        </string-array>
+
+        <string-array name="listaporcentajes">
+            <item>1.225</item>
+            <item>1.55</item>
+            <item>1.1</item>
+            <item>1.45</item>
+            <item>1.075</item>
+            <item>1.125</item>
+        </string-array>
+
+        <string-array name="listatexturas">
+            <item>Arenosa</item>
+            <item>Arenoso Franca</item>
+            <item>Arcillosa</item>
+            <item>Franca</item>
+            <item>Franco Arenosa</item>
+            <item>Franco Arcillosa</item>
+            <item>Franco Limosa</item>
+        </string-array>
+
+        <string-array name="listaDA">
+            <item>1.6</item>
+            <item>1.4</item>
+            <item>1.05</item>
+            <item>1.2</item>
+            <item>1.3</item>
+            <item>1.1</item>
+            <item>1.15</item>
+        </string-array>
+
+        <string-array name="listaCC">
+            <item>9</item>
+            <item>14</item>
+            <item>38</item>
+            <item>34</item>
+            <item>23</item>
+            <item>30</item>
+            <item>23</item>
+        </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prgguru.example.MainActivity" >
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="buscar"
+        app:showAsAction="always"
+        android:icon="@mipmap/icono"
+        />
+    <item
+        android:id="@+id/products"
+        android:orderInCategory="100"
+        android:title="uno"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/contact_us"
+        android:orderInCategory="100"
+        android:title="contactos"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="about"
+        app:showAsAction="never"/>
+
+</menu>
