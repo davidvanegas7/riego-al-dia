@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
                     if (endOfLineIndex > 0) {                                           // make sure there data before ~
                         String dataInPrint = recDataString.substring(0, endOfLineIndex);    // extract string
                         if(dataInPrint != ""){
-                            txtStringLength.setText("" + (-0.1292 * Integer.parseInt(dataInPrint)+132.3   ) );
+                            txtStringLength.setText("" + (12519 * Math.pow(Integer.parseInt(dataInPrint), -0.945 ) ));
                         }
                         recDataString.delete(0, recDataString.length());                    //clear all string data
                         dataInPrint = " ";

@@ -107,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
-            android:text="Caudal"
+            android:text="Caudal  (m3/s)"
             android:layout_marginLeft="30dp"
             android:textStyle="bold" />
 

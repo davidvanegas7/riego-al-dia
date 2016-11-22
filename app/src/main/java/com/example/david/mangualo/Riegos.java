@@ -46,9 +46,9 @@ public class Riegos {
     {
         humedad_suelo = valorCC - humedad_arduino;
         double lamina_de_agua = (humedad_suelo * valorDA * profundidadCultivo)/100;
-        double volumen_riego = lamina_de_agua * 100;
+        double volumen_riego = lamina_de_agua * 10000;
          volumen_real = volumen_riego * porcentajeRiego;
-         tiempo = volumen_real / (valor_caudal );
+         tiempo = volumen_real / ((valor_caudal) *(60));
 
         volumen_real = Math.round(volumen_real * 100) / 100;
         tiempo = Math.round(tiempo * 100) / 100;
@@ -70,7 +70,7 @@ public class Riegos {
         if(humedad_suelo < 0){
             return "Mangualo calculo que usted debe: \n\nNO REGAR";
         }
-        return "Mangualo calculo que usted debe:\n\nRegar en tu terreno "+volumen_real+" metros cúbicos de agua\n\nSu sistema de riego se demorara aproximadamente "+tiempo+" minutos";
+        return "Mangualo calculo que usted debe:\n\nRegar en tu terreno "+volumen_real+" metros cúbicos de agua\n\nSu sistema de riego se demorara aproximadamente "+tiempo+" minutos en hacerlo";
     }
 
     public double tiempo()
